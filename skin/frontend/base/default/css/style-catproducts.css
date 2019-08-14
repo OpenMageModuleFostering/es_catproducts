@@ -1,0 +1,14 @@
+.std .category-products ol,
+.std .category-products ul {
+    list-style:  none;
+    padding-left: 0;
+}
+.std .category-products ul,
+.std .category-products ol,
+.std .category-products dl,
+.std .category-products p,
+.std .category-products address,
+.std .category-products blockquote {
+    margin: 0 ;
+    padding: 0;
+}

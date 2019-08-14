@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<config>
+
+    <global>
+
+        <modules>
+            <ES_Catproducts>
+                <version>0.1.0</version>
+            </ES_Catproducts>
+        </modules>
+
+        <blocks>
+            <catproducts>
+                <rewrite>
+                    <catproducts>ES_Catproducts_Block_Products</catproducts>
+                </rewrite>
+            </catproducts>
+        </blocks>
+
+        <helpers>
+            <Catproducts>
+                <class>ES_Catproducts_Helper</class>
+            </Catproducts>
+        </helpers>
+
+        <models>
+            <catproducts>
+                <class>ES_Catproducts_Model</class>
+                <resourceModel>catproducts_resource</resourceModel>s
+            </catproducts>
+            <catproducts_resource>
+                <class>ES_Catproducts_Model_Resource</class>
+            </catproducts_resource>
+        </models>
+
+    </global>
+
+    <frontend>
+        <routers>
+            <catproducts>
+                <use>standard</use>
+                <args>
+                    <module>ES_Catproducts</module>
+                    <frontName>catproducts</frontName>
+                </args>
+            </catproducts>
+        </routers>
+        <layout>
+            <updates>
+                <catproducts>
+                    <file>catproducts.xml</file>
+                </catproducts>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <catproducts>
+            <general>
+                <perblock>2</perblock>
+                <lifetime>1</lifetime>
+                <list>list</list>
+            </general>
+        </catproducts>
+    </default>
+
+</config>

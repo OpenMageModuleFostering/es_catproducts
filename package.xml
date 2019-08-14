@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ES_Catproducts</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show products from category in block</summary>
+    <description>You can add products from category in home page</description>
+    <notes>Working version</notes>
+    <authors><author><name>Edvinas Stulpinas</name><user>edas1</user><email>st.edvinas@gmail.com</email></author></authors>
+    <date>2013-02-16</date>
+    <time>17:52:29</time>
+    <contents><target name="magecommunity"><dir name="ES"><dir name="Catproducts"><dir name="Block"><file name="Products.php" hash="53789bcf5197fa06035808b34810c40f"/></dir><dir name="Helper"><file name="Data.php" hash="7d37396f9e72bedba0735e6a64e7caab"/><file name="Observer.php" hash="c0de18fa4255d34a6392801ab17ad3d0"/></dir><dir name="Model"><dir name="System"><dir name="Config"><file name="List.php" hash="270dd8c5ffca3fbbfb87581c8e3aafef"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="77a901bdbc455555bd5ec00ea85fbf67"/><file name="config.xml" hash="d576c9eb99ab39a8b732016229712276"/><file name="system.xml" hash="d7f243115df220cf345309eb1a0c5323"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ES_Catproducts.xml" hash="101be0dcdd3d8634569779bc51c56c9e"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="catproducts"><file name="catproducts.phtml" hash="a46192d19c37aba02a8ee9bfeb1b8b98"/></dir></dir><dir name="layout"><file name="catproducts.xml" hash="39aee9b23f41353ff1aa406e8adb18ee"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="style-catproducts.css" hash="3fa2f0bed6544f24b448c7c5c721c8b7"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

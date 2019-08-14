@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ES_Catproducts>
+            <active>true</active>
+            <codePool>community</codePool>
+        </ES_Catproducts>
+    </modules>
+</config>
