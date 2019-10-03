@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ES_Catproducts",
+    "name": "OpenMageModuleFostering\/ES_Catproducts",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Show products from category in block",
     "authors": [
-    {
-        "name": "Edvinas Stulpinas",
-        "email": "st.edvinas@gmail.com"
-    }
-],
+        {
+            "name": "Edvinas Stulpinas",
+            "email": "st.edvinas@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
